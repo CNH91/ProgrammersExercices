@@ -3,18 +3,25 @@
 
 #include <iostream>
 #include <string>
+#include "Name.h"
 
 int main()
 {
-    std::string name;
+    //std::string name;
     std::string question = "What is your name?";
-    std::string response1 = "Hello, ";
-    std::string response2 = " nice to meet you!";
+    std::string greeting1 = "Hello,";
+    std::string greeting2 = "nice to meet you!";
+    std::string response;
 
     std::cout << question << std::endl;
-    std::cin >> name;
+    
+    std::cin >> response;
+    Name name(response);
+    //Name name("Christopher");
+    //std::cin >> name;
 
-    std::cout << response1 + name + response2;
+    //std::cout << response1 + " " + name + " " + response2;
+    std::cout << greeting1 + " " + name.GetName() + " " + greeting2;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
