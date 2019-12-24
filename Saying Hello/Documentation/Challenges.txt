@@ -1,0 +1,6 @@
+Challenges
+
+-Write a new version of the program without using any variables
+-Write a version of a program that displays different greetings for different people.
+This would be a good challenge to try after you<ve complted the exercises in Chapter 4,
+Making Decisions and Chapter 7, Data Structures.

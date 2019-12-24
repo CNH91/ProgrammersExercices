@@ -1,0 +1,40 @@
+Driving Design with Tests (TDD)
+
+Should always include 4 different tests
+
+Test 1
+Input:
+	Name : Christopher
+Expected result:
+	Name : Christopher
+	
+Test 2 
+Input:
+	Name : Christopher2
+Expected result:
+	Name : Error, Name should not include numeric value.
+	
+Test 3 
+Input:
+	Name : Christopher%
+Expected result:
+	Name : Error, Name should not include symbols.
+
+Test 4
+Input:
+	Name : Christopher Thompson
+Expected result:
+	Name : Christopher Thompson
+
+Test 5
+Input:
+	Name : Christopher     Thompson
+Expected result:
+	Name : Christopher Thompson
+	
+Test 6
+Input:
+	Name : Christopher Thomp3son
+Expected result:
+	Name : Error in second name
+

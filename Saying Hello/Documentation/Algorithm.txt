@@ -1,0 +1,12 @@
+Saying Hello
+
+Start
+	Declare name; 
+	Initialize question to "What is your name?"
+	Initialize response1 to "Hello, "
+	Initialize response2 to " nice to meet you!"
+
+	Prompt for name with question
+
+	Display response1 + name + response2
+End

@@ -11,8 +11,8 @@ Input :
 -Name
 
 Process:
--Prompt
--Print
+-Prompt the name
+-Print the name
 
 Output:
 -Name
