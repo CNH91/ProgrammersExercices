@@ -1,0 +1,14 @@
+Problem : 
+-Create a program that prompts for your name and prints a greeting using name.
+
+What else about this classic for coding beginners?
+
+This type of file will be general question that I would ask myself in order to understand a problem.
+
+-What should the program display on the screen when it starts? 
+-Should the user be able to modify the input? 
+-Do I want to see a name and more informations?
+
+Example :
+
+What do you want to display? Hello World
