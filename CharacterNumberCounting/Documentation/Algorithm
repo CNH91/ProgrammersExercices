@@ -1,0 +1,15 @@
+CharacterNumberCounting
+Start
+	Initialize Name;
+	Initialize Count to 0;
+	
+	Prompt Name;
+	Check if Name has symbols and spaces
+	Check if Name is a number
+	If Name is a number, Convert to string
+	
+	Convert String to an container of character
+	Count each character
+	
+	Display Name and Count
+End

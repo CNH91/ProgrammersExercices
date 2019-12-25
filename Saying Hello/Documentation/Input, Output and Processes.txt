@@ -4,9 +4,6 @@ Example Outputs
 What is your name? Brian
 Hello, Brian, nice to meet you!
 
-Constraint 
--Keep the input, string concatenation and output separate
-
 Input :
 -Name
 

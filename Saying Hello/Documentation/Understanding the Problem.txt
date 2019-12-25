@@ -1,6 +1,9 @@
 Problem : 
 -Create a program that prompts for your name and prints a greeting using name.
 
+Constraint 
+-Keep the input, string concatenation and output separate
+
 What else about this classic for coding beginners?
 
 This type of file will be general question that I would ask myself in order to understand a problem.

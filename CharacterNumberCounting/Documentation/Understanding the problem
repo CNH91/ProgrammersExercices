@@ -1,0 +1,13 @@
+Problem :
+Create a program that prompts for a input string and displays output that shows the input string and the number of characters the string contains.
+
+Constraint : 
+-Be sure the output contains the original string
+-Use a single output statement to construct the output
+-Use a built-in function of the programming language to determing the length of the string
+
+General Questions:
+
+Should the string be formatted when the user enters symbols?
+Should we trim the spaces?
+Should be count numbers?

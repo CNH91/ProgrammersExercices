@@ -1,0 +1,39 @@
+Test 1
+Input :
+	Name : Homer
+Expected result:
+	Name : Homer
+	Count : 5
+	
+Test 2
+Input :
+	Name : 5
+Expected result:
+	Name : 5
+	Count : 1
+	
+Test 3
+Input :
+	Name : 
+Expected result:
+	Message : Nothing has been inserted, please insert a string
+	
+Test 4
+Input : 
+	Name : (space)
+Expected result:
+	Message : An unvalid character has been inserted, please insert a valid string
+	
+Test 5
+Input :
+	Name : Ho mer
+Expected result:
+	Name : Homer
+	Count : 5
+	
+Test 6
+Input :
+	Name : %!Homer
+Expected result:
+	Name : Homer
+	Count : 5	
