@@ -17,7 +17,7 @@ public:
 	void SetName(std::string);
 	void SetCount(int);
 
-	void CountCharacter();
+	void CountCharacter(const int);
 
 };
 

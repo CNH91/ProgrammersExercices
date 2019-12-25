@@ -34,8 +34,8 @@ void Name::SetCount(int newCount)
 	count = newCount;
 }
 
-void Name::CountCharacter()
+void Name::CountCharacter(const int nameLength)
 {
-	
-	
+	/*int nameLength = name.length();*/
+	char nameChar[nameLength + 1];
 }
