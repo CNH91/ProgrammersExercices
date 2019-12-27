@@ -1,4 +1,6 @@
 #include "Name.h"
+#include <vector>
+#include <iostream>
 
 Name::Name()
 {
@@ -34,8 +36,16 @@ void Name::SetCount(int newCount)
 	count = newCount;
 }
 
-void Name::CountCharacter(const int nameLength)
+void Name::CountCharacter()
 {
-	/*int nameLength = name.length();*/
-	char nameChar[nameLength + 1];
+	try
+	{
+		std::vector<char> nameVector(name.begin(), name.end());
+		count = nameVector.size();
+	}
+	catch (const std::exception&)
+	{
+		std::string Message = "Error with function CountCharacter";
+		std::cout << Message;
+	}
 }
