@@ -5,7 +5,8 @@
 
 int main()
 {
-    
+    std::string name;
+
 }
 
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage

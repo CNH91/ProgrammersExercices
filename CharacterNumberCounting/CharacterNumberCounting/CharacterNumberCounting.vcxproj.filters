@@ -18,12 +18,12 @@
     <ClCompile Include="CharacterNumberCounting.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="Name.cpp">
+    <ClCompile Include="String.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Name.h">
+    <ClInclude Include="String.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
